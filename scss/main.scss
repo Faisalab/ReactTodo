@@ -1,0 +1,117 @@
+body {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @media only screen and (max-device-width: 500px) {
+    /* and (max-device-width : 480px) { */
+      .title-div {
+      text-align: center;
+
+      h1 {
+        font-size: 4em;
+      }
+    }
+    form {
+      width: 70%;
+      margin: 3% auto;
+    }
+    .add {
+      display: flex;
+      margin: 0 auto;
+    }
+    .list-group {
+      width: 70%;
+      margin: 6% auto;
+      text-align: left;
+    }
+    .list-group-item {
+      text-align: left;
+      font-size: 90%;
+      a {
+        text-align: right;
+        margin-left: 5%;
+      }
+      i {
+        color: #E74C3C;
+        font-size: 120%;
+        float: right;
+      }
+    }
+  }
+
+  @media only screen and (min-device-width: 768px) {
+    
+      .title-div {
+      text-align: center;
+      margin-top: 2rem;
+      h1 {
+        font-size: 3em;
+      }
+      a {
+        color: #fff;
+      }
+    }
+    form {
+      width: 80%;
+      margin: 3% auto;
+    }
+    .add {
+      display: flex;
+      margin: 0 auto;
+    }
+    .list-group {
+      width: 80%;
+      margin: 6% auto;
+      text-align: left;
+    }
+    .list-group-item {
+      text-align: left;
+      font-size: 90%;
+      a {
+        text-align: right;
+        margin-left: 5%;
+      }
+      i {
+        color: #E74C3C;
+        font-size: 120%;
+        float: right;
+      }
+    }
+  }
+
+  
+  
+  @media only screen and (min-width: 1224px) {
+    .title-div {
+      
+      text-align: center;
+      margin-top: 5rem;
+      text-decoration: underline;
+      
+      h1 {
+        font-size: 4em;
+      }
+    }
+    form {
+      width: 65%;
+      margin: 3% auto;
+    }
+    .add {
+      display: flex;
+      margin: 0 auto;
+    }
+    .list-group {
+      width: 65%;
+      margin: 6% auto;
+      font-size: 120%;
+      padding-bottom: 13.5%;
+      a {
+        margin-left: 80%;
+      }
+    }
+    .list-group-item i {
+      color: #E74C3C;
+    }
+  }
